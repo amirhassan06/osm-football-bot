@@ -1,0 +1,13 @@
+name = "osm-football-bot"
+main = "src/index.py"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["python_workers"]
+
+[vars]
+BOT_TOKEN = "8917540553:AAE696TkDj04hk3PhD8VD-oJdlr8YRQKbX4"         # از داشبورد Cloudflare پر کن
+WEBHOOK_SECRET = "amir001osm"    # یه رشته رندوم
+
+[[d1_databases]]
+binding = "DB"
+database_name = "osm_football"
+database_id = "22c3f911-6ea6-4600-875e-0dd438a4633d"       # بعد از wrangler d1 create پر می‌شه
